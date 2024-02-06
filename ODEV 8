@@ -1,0 +1,142 @@
+--1.test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.
+CREATE TABLE employee (
+  id INTEGER PRIMARY KEY,
+  name VARCHAR(50),
+  birthday DATE,
+  email VARCHAR(100),
+);
+
+--2.Oluşturduğumuz employee tablosuna 'Mockaroo' servisini kullanarak 50 adet veri ekleyelim.
+insert into author (id, name, birthday, email) values ('01HP00JGWW4BYQJN9YBTMYWJN6', 'Aland Le Quesne', '1960-01-23', 'ale0@1und1.de');
+insert into author (id, name, birthday, email) values ('01HP00JGWX71W6VA42M82C6FSQ', 'Timofei Mengo', '1987-12-20', 'tmengo1@symantec.com');
+insert into author (id, name, birthday, email) values ('01HP00JGWYGYM5670D329HYGH5', 'Sophi Beagles', '1956-12-02', 'sbeagles2@un.org');
+insert into author (id, name, birthday, email) values ('01HP00JGWZSAV5Y87B81CYVGAC', 'Kristel Stonall', '1999-09-29', 'kstonall3@illinois.edu');
+insert into author (id, name, birthday, email) values ('01HP00JGWZTJ9MH8MZ5Y6WJ46N', 'Dex Doctor', '1989-01-10', 'ddoctor4@delicious.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX08PBC1G638MB6N8E1', 'Alleen Hingeley', '1976-09-29', 'ahingeley5@i2i.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGX1GXF84P8KGSZRNYWR', 'Gwenneth Brideaux', '1951-10-09', 'gbrideaux6@bloomberg.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX12MHZQ2SYK4SXM0B9', 'Priscilla O''Carran', '1969-11-26', 'pocarran7@wikia.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX237Q81F9XXB65BAWA', 'Claribel Grayland', '1963-11-16', 'cgrayland8@joomla.org');
+insert into author (id, name, birthday, email) values ('01HP00JGX3BV1FJ77T7AK52Y7G', 'Danell Piddlesden', '1990-09-02', 'dpiddlesden9@blog.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX4C8F2AF1QH924ABSF', 'Malvina Bewly', '1959-01-09', 'mbewlya@bloglines.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX5ZA1WQZFWZ2Y11X1A', 'Dominique Hutchin', '1988-09-22', 'dhutchinb@ustream.tv');
+insert into author (id, name, birthday, email) values ('01HP00JGX53QFMCD3EAV50TS1S', 'Iorgo Dines', '1952-07-25', 'idinesc@prnewswire.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX6QW4HNT0DS5Z3T7MA', 'Kelvin Filippozzi', '1954-12-29', 'kfilippozzid@issuu.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX79AKWJ7V3J86B0520', 'Andrea Kynge', '1984-06-12', 'akyngee@chron.com');
+insert into author (id, name, birthday, email) values ('01HP00JGX8ES8GF6Y2TT0EBHXH', 'Anson De Morena', '1957-07-18', 'adef@google.nl');
+insert into author (id, name, birthday, email) values ('01HP00JGX9M16GH04T5T46RGDY', 'Annabal Wandrey', '1969-02-07', 'awandreyg@abc.net.au');
+insert into author (id, name, birthday, email) values ('01HP00JGXB3XFFRQSKMY4N66P7', 'Luce Dikle', '1982-04-23', 'ldikleh@360.cn');
+insert into author (id, name, birthday, email) values ('01HP00JGXCDSZ0CWW58SAZ5Z28', 'Ingaborg Arnolds', '1998-04-12', 'iarnoldsi@reuters.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXDWKAWV2B7M5B080YR', 'Myrwyn Wakeford', '1986-06-09', 'mwakefordj@is.gd');
+insert into author (id, name, birthday, email) values ('01HP00JGXEZKAJNDYT2M8T2GHH', 'Fair Kaman', '1973-05-22', 'fkamank@intel.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXFC5FBJN1MPDFY9CF1', 'Ruthann Ferrone', '1957-12-26', 'rferronel@angelfire.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXFW07K5DM76QDNVKV3', 'Reider Doorey', '1969-12-10', 'rdooreym@gov.uk');
+insert into author (id, name, birthday, email) values ('01HP00JGXG7C2189R2PCP0DBX0', 'Early Tume', '1960-04-09', 'etumen@cdbaby.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXHA8BGEBRGT7CE7K8J', 'Andres Chancellor', '1956-08-28', 'achancelloro@samsung.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXH4YX9VSNZEGSV3SM7', 'Sebastien Armatys', '1990-12-09', 'sarmatysp@pcworld.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXJKWHV25BGMEMGRF70', 'Granny Loan', '1961-01-11', 'gloanq@google.cn');
+insert into author (id, name, birthday, email) values ('01HP00JGXJSQW9F1KY0A01HEGZ', 'Korrie Ornillos', '1976-08-16', 'kornillosr@fc2.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXKFNB20HXSN6H6YM90', 'Etty Mulmuray', '1989-07-26', 'emulmurays@npr.org');
+insert into author (id, name, birthday, email) values ('01HP00JGXKN5F5A0748YB981A0', 'Constanta Burwood', '1993-06-23', 'cburwoodt@printfriendly.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXMNZJRBB5DT1VTCMVY', 'Faina Tomaszewski', '1950-12-11', 'ftomaszewskiu@techcrunch.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXN5548HHJZCTNQMQ47', 'Maryanna Vaissiere', '1987-10-11', 'mvaissierev@drupal.org');
+insert into author (id, name, birthday, email) values ('01HP00JGXP201Q2TR7F7KV8HDA', 'James Menghi', '1959-11-13', 'jmenghiw@live.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXP3KVWPSVBQHE3B82V', 'Irwin Caulwell', '1977-11-12', 'icaulwellx@simplemachines.org');
+insert into author (id, name, birthday, email) values ('01HP00JGXR1F9JTAFMJ7XN4Y5B', 'Matti Striker', '1979-09-11', 'mstrikery@blogs.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXSNT0PW15W47BCPX31', 'Kristofor Boniface', '1954-04-20', 'kbonifacez@rakuten.co.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGXS83D351WBWT57TZTN', 'Olia Neilly', '1950-07-17', 'oneilly10@yelp.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXTXRX8JBTHBDSZFW12', 'Knox Beavis', '1979-08-14', 'kbeavis11@de.vu');
+insert into author (id, name, birthday, email) values ('01HP00JGXVFE0HQC1M6190167A', 'Engracia Borman', '1951-03-09', 'eborman12@eventbrite.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXWVDSHA4X7PEKT9Q9E', 'Kerry Willstrop', '1968-08-14', 'kwillstrop13@newyorker.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXX3F98NK1V9NCF6E21', 'Blanca Roloff', '1990-12-31', 'broloff14@miibeian.gov.cn');
+insert into author (id, name, birthday, email) values ('01HP00JGXXDH6WRKYWE107BV7M', 'Timmie Marguerite', '1983-01-10', 'tmarguerite15@tiny.cc');
+insert into author (id, name, birthday, email) values ('01HP00JGXYB6ZJAWEJ5DKTH9DD', 'Tyler Merriment', '1990-10-25', 'tmerriment16@pinterest.com');
+insert into author (id, name, birthday, email) values ('01HP00JGXZWJ965ZYTF1ZTNYMY', 'Tuesday Fieldhouse', '1961-04-14', 'tfieldhouse17@google.com.au');
+insert into author (id, name, birthday, email) values ('01HP00JGY059W6HS4CN1AYYK2R', 'Tybi Loud', '1961-11-28', 'tloud18@disqus.com');
+insert into author (id, name, birthday, email) values ('01HP00JGY1TKZD449JVJTPG6J8', 'Joachim Mattis', '1974-11-28', 'jmattis19@i2i.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGY1QPM6Q0FZRBY41GK1', 'Enrico Hamnett', '1995-10-10', 'ehamnett1a@simplemachines.org');
+insert into author (id, name, birthday, email) values ('01HP00JGY2DFVGFBS4ZY55K5AK', 'Franni Conti', '1998-05-19', 'fconti1b@devhub.com');
+insert into author (id, name, birthday, email) values ('01HP00JGY281DPXYMB04N7TMDX', 'Ruthy Egleton', '1974-08-06', 'regleton1c@google.ca');
+insert into author (id, name, birthday, email) values ('01HP00JGY3J8B3RQTTGWMB9Z2K', 'Maitilde Pieche', '1979-04-08', 'mpieche1d@addthis.com');
+insert into author (id, name, birthday, email) values ('01HP00JGY39WS4PVJW2Y658V6Q', 'Damita Cordobes', '1953-06-20', 'dcordobes1e@wp.com');
+insert into author (id, name, birthday, email) values ('01HP00JGY42FWVMSSJSE10N756', 'Marcille Gerraty', '1990-08-12', 'mgerraty1f@github.io');
+insert into author (id, name, birthday, email) values ('01HP00JGY5YACCRP1DGZBPZKMX', 'Aindrea Dickin', '1959-11-14', 'adickin1g@networkadvertising.org');
+insert into author (id, name, birthday, email) values ('01HP00JGY61778KACA8ZWWFT82', 'Andreas Wagg', '1975-07-23', 'awagg1h@hubpages.com');
+insert into author (id, name, birthday, email) values ('01HP00JGY7QB5W097236FCFGWV', 'Art Bellinger', '1994-09-22', 'abellinger1i@amazon.co.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGY8YTDEWBY285Q1ATCE', 'Marcelia Dow', '1997-03-04', 'mdow1j@friendfeed.com');
+insert into author (id, name, birthday, email) values ('01HP00JGY9HRBW2BG9K80WVKG3', 'Bekki Eskriett', '1956-08-04', 'beskriett1k@ucoz.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYA14QYCX0G4WE91QFJ', 'Kermit Pettis', '1984-10-06', 'kpettis1l@smh.com.au');
+insert into author (id, name, birthday, email) values ('01HP00JGYBN41K8K7K92YTP4PS', 'Kelvin Bignold', '1989-09-25', 'kbignold1m@is.gd');
+insert into author (id, name, birthday, email) values ('01HP00JGYB7N07BCWA5KK81W3V', 'Chiarra Ashcroft', '1992-11-28', 'cashcroft1n@gmpg.org');
+insert into author (id, name, birthday, email) values ('01HP00JGYC403WT8X7RAXGC0RJ', 'Lowell Smitten', '1978-01-02', 'lsmitten1o@hostgator.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYDKQMPE8HA8QWH5K6D', 'Yardley Pollington', '1960-09-05', 'ypollington1p@blogger.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYEXAYPC85DBZYXCT3M', 'Cloris Kayzer', '1966-12-28', 'ckayzer1q@engadget.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYF2NESE6W6ZF4R0HXP', 'Rollin Dominighi', '1956-10-30', 'rdominighi1r@unc.edu');
+insert into author (id, name, birthday, email) values ('01HP00JGYGKS1CN96FBFYBBBRZ', 'Hunt Deetch', '1979-02-20', 'hdeetch1s@unblog.fr');
+insert into author (id, name, birthday, email) values ('01HP00JGYHT26C69H86EDPY458', 'Elvyn Rawe', '1995-09-09', 'erawe1t@mail.ru');
+insert into author (id, name, birthday, email) values ('01HP00JGYJ6XR2KS0SWQQNP8VV', 'Glad Boyland', '1999-11-25', 'gboyland1u@jiathis.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYJ2WD9GCBHRBCAG7C8', 'Florencia Nuss', '1972-10-17', 'fnuss1v@hugedomains.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYKTVBRN4RX1P8AT0GA', 'Rustie Bourges', '1977-12-10', 'rbourges1w@ask.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYMGVXMBQTX2F0PS0ZH', 'Hobart Velden', '1992-08-26', 'hvelden1x@ameblo.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGYNRRZJ0J5PS06A92X7', 'Amalie Tangye', '1982-11-16', 'atangye1y@51.la');
+insert into author (id, name, birthday, email) values ('01HP00JGYPQKM1C9525TTXVD4G', 'Starla Van Hesteren', '1999-07-13', 'svan1z@nps.gov');
+insert into author (id, name, birthday, email) values ('01HP00JGYQ89QYD38AAZT83BS4', 'Zonnya Giovanizio', '1989-09-13', 'zgiovanizio20@artisteer.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYR4NMK9QKQD93SCNB1', 'Libbey Landal', '1956-01-11', 'llandal21@naver.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYS454EEMR0PZ0WKFXV', 'Ludvig Dubery', '1962-04-27', 'ldubery22@wsj.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYTGDWNZQNXKA9MY0AG', 'Tony Spancock', '1977-10-10', 'tspancock23@wikispaces.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYV6H0VHFA115SWE9QE', 'Anna-diane MacAskie', '1963-03-07', 'amacaskie24@cdbaby.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYVQAAYNWVRDGXXDDK9', 'Wayne Deniscke', '1958-09-17', 'wdeniscke25@comcast.net');
+insert into author (id, name, birthday, email) values ('01HP00JGYWWFBE1KTYCDG8B9G1', 'Marjie Dunbobbin', '1980-09-30', 'mdunbobbin26@reddit.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYWEH7HPWZY3Y2CCYE8', 'Ingaborg Turpie', '1955-07-30', 'iturpie27@oaic.gov.au');
+insert into author (id, name, birthday, email) values ('01HP00JGYX6MSXZG6M60EDE218', 'Eugenia Duigenan', '1965-02-12', 'eduigenan28@squarespace.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYXWXE7DG3MACF7PR79', 'Katrine Baudet', '1973-02-26', 'kbaudet29@google.nl');
+insert into author (id, name, birthday, email) values ('01HP00JGYYYRJK4RPKFF3HSMK6', 'Kermie Otham', '1966-05-26', 'kotham2a@china.com.cn');
+insert into author (id, name, birthday, email) values ('01HP00JGYYFBJQ66RHX4JCETP5', 'Kermy Stokey', '1995-05-10', 'kstokey2b@cafepress.com');
+insert into author (id, name, birthday, email) values ('01HP00JGYZGQG92ZYD0HJV901R', 'Gradey Pedler', '1992-10-20', 'gpedler2c@craigslist.org');
+insert into author (id, name, birthday, email) values ('01HP00JGZ0KFAD4Z0TWVNFGS8N', 'Helsa Sweedland', '1968-03-28', 'hsweedland2d@baidu.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ1MQX3KB7RWERH8DRD', 'Shepard Pllu', '1990-06-27', 'spllu2e@merriam-webster.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ2DMVZRN1DXT7JR27C', 'Biddie Laycock', '1989-03-04', 'blaycock2f@plala.or.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGZ37PR8KV4Z6P80M3JS', 'Hubert Mathivon', '1993-10-15', 'hmathivon2g@surveymonkey.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ3VJC2HDWZ8G71MMRT', 'Hannah Koubu', '1958-09-27', 'hkoubu2h@netscape.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ4K7HQBT3MXQ74JP0N', 'Harvey Shannahan', '1975-01-27', 'hshannahan2i@goo.ne.jp');
+insert into author (id, name, birthday, email) values ('01HP00JGZ4CM987HW4CXYTXNPA', 'Talyah Beiderbecke', '1983-07-17', 'tbeiderbecke2j@xrea.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ58V45DYCP71WN9M8W', 'Ulric Handyside', '1987-09-13', 'uhandyside2k@microsoft.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ64QBSAXA9EN33Y2XY', 'Mallory Slaymaker', '1980-01-07', 'mslaymaker2l@tripadvisor.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ63JSFR76DTNJTZ0QW', 'Marla Damsell', '1986-02-28', 'mdamsell2m@dmoz.org');
+insert into author (id, name, birthday, email) values ('01HP00JGZ7TY140VPG7M3DY9J6', 'Ross Mcsarry', '1996-12-05', 'rmcsarry2n@fastcompany.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ8C2APPTGC6JVZ4SN8', 'Modestia Brind', '1971-09-16', 'mbrind2o@ucoz.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ8P9KM9W7MTFYCN9GR', 'Bette Bidder', '1974-03-21', 'bbidder2p@google.pl');
+insert into author (id, name, birthday, email) values ('01HP00JGZ9FH13C01ZF3H1Y4BK', 'Leda MacKilroe', '1990-12-25', 'lmackilroe2q@kickstarter.com');
+insert into author (id, name, birthday, email) values ('01HP00JGZ9MEXDHT19WRQCSCP6', 'Ash Clement', '1953-02-15', 'aclement2r@feedburner.com');
+
+--3.Sütunların her birine göre diğer sütunları güncelleyecek 5 adet UPDATE işlemi yapalım.
+UPDATE employee
+SET name = 'John', birthday = '1990-01-01', email = 'john@email.com'
+WHERE id = 01HP00JGZ7TY140VPG7M3DY9J6;
+UPDATE employee
+SET name = 'Alice', birthday = '1985-05-15', email = 'alice@email.com'
+WHERE id = 01HP00JGZ8C2APPTGC6JVZ4SN8;
+UPDATE employee
+SET name = 'Bob', birthday = '1988-09-20', email = 'bob@email.com'
+WHERE id = 01HP00JGZ8P9KM9W7MTFYCN9GR;
+UPDATE employee
+SET name = 'Emily', birthday = '1992-03-10', email = 'emily@email.com'
+WHERE id = 01HP00JGZ9FH13C01ZF3H1Y4BK;
+UPDATE employee
+SET name = 'Michael', birthday = '1980-11-25', email = 'michael@email.com'
+WHERE id = 01HP00JGZ9MEXDHT19WRQCSCP6;
+
+--4.Sütunların her birine göre ilgili satırı silecek 5 adet DELETE işlemi yapalım.
+DELETE FROM employee
+WHERE id=01HP00JGZ9FH13C01ZF3H1Y4BK;
+
+DELETE FROM employee 
+WHERE name='Leda Mckilroe';
+
+DELETE FROM employee 
+WHERE birthday='1953-02-15';
+
+DELETE FROM employee
+WHERE email='aclement2r@feedburner.com';
+
+DELETE FROM employee
+WHERE name LIKE='%N';
