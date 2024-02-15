@@ -1,1 +1,1 @@
-Patika SQL Course Ödevleri.
+Patika SQL Course Tasks.
